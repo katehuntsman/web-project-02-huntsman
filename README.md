@@ -1,8 +1,15 @@
 # Python Data Structures and Notebooks
 
-Complete the tasks in the Python Notebook in this repository.
-To be submitted for credit, all changes must be committed and pushed to this repository (do not create your own repository unless instructed to on the course website).
+# Copy and Clone Base Repository
+```
+Copy the base repository into your GitHub account by selecting the "Use this Template" button on GitHub and specifying yourself as the owner.  
 
-## Rubric
+The base repository is available at: https://github.com/wmnlp-materials/python-ds-nb/blob/main/python-ds.ipynbLinks to an external site.
 
-Each question is worth one point.
+On your machine, clone YOUR new repo down to your machine using VS Code.
+```
+
+# Export to HTML
+```
+jupyter nbconvert --to html python-ds.ipynb
+```
